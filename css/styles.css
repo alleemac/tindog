@@ -1,0 +1,207 @@
+body {
+    font-family: 
+    'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 ,h4, h5, h6 { 
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    color: dimgray;
+}
+
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading-text {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5; 
+}
+
+.feature-title {
+    margin: 8% 0 0 0;
+    font-weight: bold;
+}
+
+/* Title Area */
+
+
+#title {
+    background-color: #ff4c68;
+    overflow: hidden;
+    color: white;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+
+
+.phone-rotation {
+    transform: rotate(13deg);
+    width: 20%;
+    position: absolute;
+    left: 60%;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 10% 0;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.nav-item {
+padding: 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+
+.nav-link:hover {
+   text-decoration: underline 3px;
+
+}
+.fa-bone {
+    font-size: 50%;
+}
+
+/* Download Buttons */
+
+.downloadbtn {
+margin: 15% 3% 5% 0;
+}
+
+/* Features */
+
+#features {
+    padding: 5% 5% 0 5%;
+    background-color: white;
+    position: relative;
+}
+
+.fa-5x {
+    color: #f77b8e;
+}
+.fa-5x:hover {
+    color: #ff4c68;
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: transform .4s; /* Animation */
+
+}
+
+
+
+.feature-box {
+    padding: 5%
+}
+
+
+/* Testimonials  */
+
+#testimonials {
+    background-color: #f77b8e;
+    color: white;
+
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+#press {
+    background-color: #f77b8e;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 25px;
+}
+
+.carousel-item {
+    padding: 7%;
+}
+
+.card-group {
+    margin: 5%;
+}
+
+/* Pricing */
+#pricing {
+    padding: 5%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Mobile Responsive  */
+
+@media (max-width:1028px) {
+    .phone-rotation {
+        position: static;
+        transform: rotate(0);
+        width: 75%;
+        padding-top: 15%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .btn {
+        margin: auto;
+    }
+}
+
+
+/* CTA */
+
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    padding: 3% 15%;
+}
+
+.ctabutton {
+    margin: 5% 3% 10% 3%;
+}
+
+#footer {
+    padding: 5%;
+}
+
+.footbutton {
+    margin: 10px;
+    padding-bottom: 3%;
+    color: rgb(44, 44, 44);
+}
+
+.footbutton:hover {
+    color:  #ff4c68;
+}
